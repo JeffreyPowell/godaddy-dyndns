@@ -2,6 +2,6 @@
 
 Set-up
 
-sudo apt-get install python python-pip
+`sudo apt-get install python python-pip
 sudo pip install pif
-sudo pip install pygodaddy
+sudo pip install pygodaddy`
