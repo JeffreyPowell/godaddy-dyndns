@@ -9,8 +9,8 @@ import pygodaddy
 GODADDY_USERNAME="USERNAME"
 GODADDY_PASSWORD="PASSWORD"
 # The files will be created automatically
-LOGFILE='/SOME/PLACE/godaddy/godaddy.log'
-IPFILE='/SOME/PLACE/godaddy/current_ip'
+LOGFILE='/opt/dyndns/godaddy.log'
+IPFILE='/opt/dyndns/current_ip'
  
 #
 # check locally if IP has changed
