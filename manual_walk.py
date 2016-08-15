@@ -35,7 +35,7 @@ print(result.status_code)
 
 #'app=www&realm=idp&layout=layout.rebrand_layout.html&name=133585652&password=Corine33.'
 
-payload = {'app:www', 'realm:idp', 'layout:layout.rebrand_layout.html', 'name:133585652', 'password:Corine33.'}
+payload = {'app:www', 'realm:idp', 'layout:layout.rebrand_layout.html', 'name:xxx', 'password:xxx.'}
 
 
 postresult = requests.post('https://sso.godaddy.com/v1/', data=payload)
