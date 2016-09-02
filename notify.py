@@ -21,3 +21,12 @@ def send_email(user, pwd, recipient, subject, body):
         print 'successfully sent the mail'
     except:
         print "failed to send mail"
+
+
+### BEGIN MAIN PROCEDURE
+setup_logfile()
+public_ip = pif.get_public_ip()
+ 
+if check_ip_file(public_ip) != 1:
+  send_email('jffrypwll@googlemail.com', public_ip)
+  
